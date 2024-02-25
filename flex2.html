@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+   display:flex;
+   flex-direction:row;
+   border:2px solid black;
+   justify-content: space-between;
+   
+  background-color: DodgerBlue;
+}
+.main-class{
+
+ border:2px solid red;
+ display:flex;
+ flex-direction:column;
+ height:400px;
+ justify-content:space-between;
+ padding:30px;
+}
+.flex-container3 {
+   display:flex;
+   flex-direction:row;
+   border:2px solid black;
+   padding:10px;
+   
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 800px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+ 
+}
+
+.ele1{
+  height:50px;
+  width:600px;
+  border:2px solid yellow;
+  background:white;
+  align-item:center;
+}
+
+
+
+.ele2{
+  height:50px;
+  width:800px;
+  border:2px solid yellow;
+  background:white;
+  align-item:center;
+  margin-left:20px;
+}
+
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="main-class">
+    
+<div class="flex-container">
+
+  <div> 1
+</div>
+  
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<div class="flex-container">
+  <div>4</div>
+  <div>5</div>
+</div>
+<div class="flex-container3">
+  <div class="ele1">6</div>
+  <div class="ele2">7</div>
+  </div></div>
+  </body>
+  </html>
+ 
